@@ -1,3 +1,4 @@
-x=[1,1]
-while x[-1]<4000000:x+=(x[-1]+x[-2])
-print(sum([i*(i%2+1) for i in x]))
+a=b=1
+s=0
+while b<4e6:a,b=b,a+b;s+=~b%2*b
+print(s)
