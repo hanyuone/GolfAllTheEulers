@@ -6,8 +6,9 @@ A project for golfing every Project Euler problem.
 
 - No hardcoding of the answer. Use your common sense.
 - Output your answer to STDOUT.
-- By default, headers like `#include <iostream>` are written, but do not include self-written or non-standard headers like `#include <answer_to_0001.h>`.
+- All answers must work "out-of-the-box" - i.e. all files have to be complete by itself, without any changes to the file.
 
 ## Contents
 
 [Problem 1](0001)
+[Problem 2](0002)
