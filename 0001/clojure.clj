@@ -1,1 +1,1 @@
-(println(apply +(filter #(or(=(mod % 3)0)(=(mod % 5)0))(range 999))))
+(println(apply +(for[a(range 999):when(=(+(mod a 3)(mod a 5))0)]a)))
