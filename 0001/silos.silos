@@ -1,0 +1,10 @@
+a=1000
+lblb
+a-1
+c=a%3*a%5
+c/c
+c=1-c
+c*a
+s+c
+if a b
+printInt s
