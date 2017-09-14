@@ -1,2 +1,2 @@
-#include <iostream>
-int main(){int x=0;for(int i=0;i<1000;i++){x+=i*(i%3*i%5<1);}std::cout<<x;}
+#include<iostream>
+int x,i;int main(){for(;++i<1e3;){x+=i*(i%3*i%5<1);}std::cout<<x;}
