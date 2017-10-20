@@ -1,1 +1,1 @@
-console.log([...Array(1000).keys()].filter(x=>x%3==0||x%5==0).reduce((a,b)=>a+b))
+s=0;for(x=1e3;--x;)s+=x*(x%3<1||x%5<1);console.log(s)
